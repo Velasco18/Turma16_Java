@@ -9,7 +9,7 @@ public class ExercicioPar_ou_Impar {
 	 Scanner ler = new Scanner(System.in);
 	 System.out.println("Digite um numero: ");
 	 numero = ler.nextInt();
-	 
+	 //
 	 if(numero < 0) {
 		 System.out.println("O numero que você digitou é negativo!");
 		 
