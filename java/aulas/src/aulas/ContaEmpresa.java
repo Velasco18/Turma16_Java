@@ -13,9 +13,6 @@ public class ContaEmpresa {
 		System.out.println("DESEJA FAZER UM EMPRESTIMO S/N ?");
 		verdade = ler.next().charAt(0);
 		if(verdade == 'S') {
-			for() {
-				
-			}
 			
 		}
 		
