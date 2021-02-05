@@ -1,6 +1,4 @@
-package Enterface_Polimorfismo;
-	
-	//Atributos
+package Collections;
 
 public class Empregado {
 	private String nome;
@@ -47,3 +45,6 @@ public class Empregado {
 	
 
 }
+
+
+

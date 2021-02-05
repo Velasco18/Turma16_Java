@@ -10,7 +10,7 @@ public class Cavalo extends Animal {
 	@Override
 	public String emitirSom() {
 		
-		return "Relichar";
+		return "Relinchar";
 	}
 	public void corre() {
 		

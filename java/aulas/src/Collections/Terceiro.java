@@ -1,6 +1,6 @@
-package Enterface_Polimorfismo;
+package Collections;
 
-public class Terceiro extends Empregado{
+public class Terceiro extends Empregado {
 	private double acrescimo;
 
 	public Terceiro(String nome, int matricula, int horas, double valorHora, double acrescimo) {
@@ -21,6 +21,5 @@ public class Terceiro extends Empregado{
 	public double salario() {
 		return super.salario()* acrescimo+ super.salario();// 0.1
 	}
-	
 
 }

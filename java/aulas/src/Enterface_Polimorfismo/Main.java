@@ -20,7 +20,7 @@ public class Main {
 		 	if(opcao == 'S') {
 		 		System.out.println("Digite o valor de acrescimo: ");
 		 		double acrescimo = ler.nextDouble();
-		 		Empregado func1 = new Terceiro(nome,matricula,horas,valorHora);
+		 		Empregado func1 = new Terceiro(nome,matricula,horas,valorHora, acrescimo);
 		 		System.out.println("Matricula:"+ func1.getMatricula());
 		 		System.out.println("Nome:"+ func1.getNome());
 		 		System.out.println("Salário:"+ func1.salario());
