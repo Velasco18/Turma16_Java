@@ -1,6 +1,9 @@
 package Heranca;
 
 public class Vendedor extends Pessoa {
+	private double valorVendas;
+	private double comissao;
+	
 
 	public Vendedor() {
 		super();
@@ -10,8 +13,6 @@ public class Vendedor extends Pessoa {
 		super(nome, endereco, telefone);
 	}
 	
-	private double valorVendas;
-	private double comissao;
 	
 	public double salarioVendedor() {
 		return valorVendas*(1+(comissao/100));
