@@ -1,5 +1,6 @@
 package Collections;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class TesteErro {
@@ -14,13 +15,19 @@ public class TesteErro {
 			System.out.println("Digite uma posição da lista: ");
 			int posicao = leia.nextInt();
 			System.out.println("O nome na posição escolhida é " + vetor[posicao]);
-		} catch (java.lang.ArrayIndexOutOfBoundsException erro1) {
-			System.out.println("Amigão, tu digitou um tamanho de indice errado!!!");
 			
-		} catch (java.util.InputMismatchException Erro2) {
-			System.out.println("você digitou variavell não esperada!");
+			} 
+		catch (java.lang.ArrayIndexOutOfBoundsException erro1) {
+			System.out.println("Amigão, tu digitou um tamanho de indice errado!!!");
+
+		} 
+		catch (InputMismatchException erro) {
+			System.out.println("Você não digitou a variavel certa!");
+		} 
+		finally {
+			System.out.println("Voce precisa tratar bem suas informações.");
 		}
-		
+
 		System.out.println("Fim de programa!!!!");
 	}
 
