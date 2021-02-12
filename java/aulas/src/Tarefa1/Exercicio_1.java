@@ -1,4 +1,4 @@
-package Tafresfa1;
+package Tarefa1;
 
 import java.util.Scanner;
 
